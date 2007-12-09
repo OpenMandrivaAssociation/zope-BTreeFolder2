@@ -1,6 +1,6 @@
 %define product		BTreeFolder2
 %define version		1.0.2
-%define release		1
+%define release		2
 
 %define zope_minver	2.7
 
