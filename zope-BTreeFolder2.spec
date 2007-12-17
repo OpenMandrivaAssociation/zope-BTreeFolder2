@@ -15,7 +15,6 @@ License:	ZPL
 Group:		System/Servers
 Source:		http://plone.org/Members/tiran/BTreeFolder2-1.0.2.tar.bz2
 URL:		http://hathawaymix.org/Software/BTreeFolder2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 Requires:	zope >= %{zope_minver}
 
