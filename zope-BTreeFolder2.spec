@@ -25,8 +25,8 @@ Obsoletes:	BTreeFolder2
 %description
 When you fill a Zope folder with too many items, both Zope and your browser get
 overwhelmed. Zope has to load and store a large folder object, and the browser
-has to render large HTML tables repeatedly. Zope can store a lot of objects, but
-it has trouble storing a lot of objects in a single standard folder.
+has to render large HTML tables repeatedly. Zope can store a lot of objects,
+but it has trouble storing a lot of objects in a single standard folder.
 
 BTreeFolder2 solves this problem by storing subobjects in Zope BTrees, special
 structures designed for an object database. BTrees can hold numerous items
@@ -34,8 +34,8 @@ without loading them all into memory at once.
 
 This product descends from the BTreeFolder product. Since they are more
 optimized, BTreeFolder2 instances can hold more objects than BTreeFolder
-instances. But since there are products that depend on the internal structure of
-BTreeFolder, the product has been renamed to make it possible to have both
+instances. But since there are products that depend on the internal structure
+of BTreeFolder, the product has been renamed to make it possible to have both
 installed at the same time. New software should depend on BTreeFolder2, not
 BTreeFolder.
 
