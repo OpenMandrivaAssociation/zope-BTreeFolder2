@@ -7,7 +7,7 @@
 %define zope_home	%{_prefix}/lib/zope
 %define software_home	%{zope_home}/lib/python
 
-Summary:	BTreeFolder2 is a Zope product that acts like a Zope folder but can store many more items
+Summary:	Zope product that acts like a Zope folder but can store many more items
 Name:		zope-%{product}
 Version:	%{version}
 Release:	%mkrel %{release}
